@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #FEF9E1;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A31D1D;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    text-decoration: underline;
+    color: #E5D0AC;
+}
+h1{
+    background-color: #A31D1D;
+    text-align: center;
+}
+ h2 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #A31D1D;
+}
+
+.bicicletas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.bicicleta {
+    background-color: #E5D0AC;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bicicleta img {
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #6D2323;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: #A31D1D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.redes a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .bicicletas {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form {
+        width: 80%;
+    }
+}
+.contenedor{
+    text-align: center;
+}
